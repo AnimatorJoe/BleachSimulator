@@ -1,2 +1,3 @@
 # BleachSimulator
-A bleach simulator. Disclaimer: Drinking bleach may cause extreme harm or damage, please do not attempt.
+A bleach simulator. Cloning this repository is not recommended.
+Disclaimer: Drinking bleach may cause extreme harm or damage, please do not attempt.
