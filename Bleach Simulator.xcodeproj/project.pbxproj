@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		733A52631E33F3940028E6D3 /* Blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 733A52621E33F3940028E6D3 /* Blue.png */; };
 		73B785551E32C74100588CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B785541E32C74100588CEE /* AppDelegate.swift */; };
 		73B785571E32C74100588CEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B785561E32C74100588CEE /* ViewController.swift */; };
 		73B7855A1E32C74100588CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B785581E32C74100588CEE /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		73B7855F1E32C74100588CEE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73B7855D1E32C74100588CEE /* LaunchScreen.storyboard */; };
 		73B7856A1E32C74100588CEE /* Bleach_SimulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B785691E32C74100588CEE /* Bleach_SimulatorTests.swift */; };
 		73B785751E32C74100588CEE /* Bleach_SimulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B785741E32C74100588CEE /* Bleach_SimulatorUITests.swift */; };
+		73B785831E32C81100588CEE /* Bleach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 73B785821E32C81100588CEE /* Bleach.jpg */; };
+		73B785871E32CEC300588CEE /* I Drink Clorox Bleach Everyday Parody of I Play Pokemon Go Everyday.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73B785861E32CEC300588CEE /* I Drink Clorox Bleach Everyday Parody of I Play Pokemon Go Everyday.mp3 */; };
+		73B785891E32CF2A00588CEE /* Drink Bleach.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 73B785881E32CF2A00588CEE /* Drink Bleach.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		733A52621E33F3940028E6D3 /* Blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Blue.png; sourceTree = "<group>"; };
 		73B785511E32C74100588CEE /* Bleach Simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bleach Simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B785541E32C74100588CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73B785561E32C74100588CEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		73B785701E32C74100588CEE /* Bleach SimulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Bleach SimulatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73B785741E32C74100588CEE /* Bleach_SimulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bleach_SimulatorUITests.swift; sourceTree = "<group>"; };
 		73B785761E32C74100588CEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73B785821E32C81100588CEE /* Bleach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bleach.jpg; sourceTree = "<group>"; };
+		73B785861E32CEC300588CEE /* I Drink Clorox Bleach Everyday Parody of I Play Pokemon Go Everyday.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I Drink Clorox Bleach Everyday Parody of I Play Pokemon Go Everyday.mp3"; sourceTree = "<group>"; };
+		73B785881E32CF2A00588CEE /* Drink Bleach.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Drink Bleach.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		73B785531E32C74100588CEE /* Bleach Simulator */ = {
 			isa = PBXGroup;
 			children = (
+				73B785841E32C81D00588CEE /* Assets */,
 				73B785541E32C74100588CEE /* AppDelegate.swift */,
 				73B785561E32C74100588CEE /* ViewController.swift */,
 				73B785581E32C74100588CEE /* Main.storyboard */,
@@ -123,6 +132,17 @@
 				73B785761E32C74100588CEE /* Info.plist */,
 			);
 			path = "Bleach SimulatorUITests";
+			sourceTree = "<group>";
+		};
+		73B785841E32C81D00588CEE /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				73B785821E32C81100588CEE /* Bleach.jpg */,
+				733A52621E33F3940028E6D3 /* Blue.png */,
+				73B785881E32CF2A00588CEE /* Drink Bleach.mp3 */,
+				73B785861E32CEC300588CEE /* I Drink Clorox Bleach Everyday Parody of I Play Pokemon Go Everyday.mp3 */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,7 +255,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B785831E32C81100588CEE /* Bleach.jpg in Resources */,
+				73B785891E32CF2A00588CEE /* Drink Bleach.mp3 in Resources */,
+				733A52631E33F3940028E6D3 /* Blue.png in Resources */,
 				73B7855F1E32C74100588CEE /* LaunchScreen.storyboard in Resources */,
+				73B785871E32CEC300588CEE /* I Drink Clorox Bleach Everyday Parody of I Play Pokemon Go Everyday.mp3 in Resources */,
 				73B7855C1E32C74100588CEE /* Assets.xcassets in Resources */,
 				73B7855A1E32C74100588CEE /* Main.storyboard in Resources */,
 			);
@@ -358,7 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -402,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -421,6 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.animatorjoe.Bleach-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -434,6 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.animatorjoe.Bleach-Simulator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -514,6 +540,7 @@
 				73B7857B1E32C74100588CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B7857C1E32C74100588CEE /* Build configuration list for PBXNativeTarget "Bleach SimulatorTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +549,7 @@
 				73B7857E1E32C74100588CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73B7857F1E32C74100588CEE /* Build configuration list for PBXNativeTarget "Bleach SimulatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +558,7 @@
 				73B785811E32C74100588CEE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
