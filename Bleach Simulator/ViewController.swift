@@ -52,6 +52,7 @@ class ViewController: UIViewController {
         case 1:
             bleachSound.play()
         default:
+            bleachSong.currentTime = 4
             bleachSong.play()
         }
         
